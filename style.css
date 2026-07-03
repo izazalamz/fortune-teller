@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff8e7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+}
+.fortune-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.fortune-box {
+  width: 420px;
+  min-height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 20px;
+  /* border: 3px solid #333; */
+  border-radius: 10px;
+  color: "#1f2937";
+  background-color: #f8fafc;
+  border: solid 2px #64748b;
+  font-size: 22px;
+  font-family: "Verdana", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.theme-buttons {
+  display: flex;
+  /* flex-direction: row;  */
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 110px;
+  height: 110px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.theme-buttons .theme-button {
+  height: 50px;
+  width: 50px;
+  /* padding: 10px 15px; */
+  cursor: pointer;
+  /* background-color: red; */
+  border-radius: 5px;
+}
+.blue {
+  background-color: #2563eb;
+  border: 10px solid #1e40af;
+  /* font-size: ; */
+}
+.orange {
+  background-color: #fef3c7;
+  border: 8px solid #d97706;
+}
+.green {
+  background-color: #15803d;
+  border: 8px solid #14532d;
+}
+.purple {
+  background-color: #7c3aed;
+  border: 8px solid #4c1d95;
+}
